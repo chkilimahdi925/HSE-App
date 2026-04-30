@@ -7,7 +7,7 @@ const {
   getCompanyById,
   updateCompany,
   deleteCompany,
-} = require("../controllers/companyController");
+} = require("../controllers/companycontroller");
 
 // CREATE
 router.post("/", createCompany);
